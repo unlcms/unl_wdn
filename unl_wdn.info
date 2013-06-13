@@ -1,5 +1,5 @@
 name = UNL WDN
-description = UNL WDN Theme
+description = This theme tracks the 3.x version of the UNL Web Framework.
 screenshot = screenshot.png
 core = 7.x
 engine = phptemplate
