@@ -300,7 +300,7 @@ function unl_wdn_username_alter(&$name, $account) {
 function unl_wdn_preprocess_page(&$vars, $hook) {
 
   $loginUrl = url('user', array('query' => drupal_get_destination()));
-  $script = 'WDN.jQuery(function() {' . PHP_EOL
+  $script = 'WDN.loadJQuery(function() {' . PHP_EOL
           . '  WDN.idm.setLoginURL("' . $loginUrl . '");' . PHP_EOL
           . '  WDN.idm.setLogoutURL("user/logout");' . PHP_EOL
           . '});'
